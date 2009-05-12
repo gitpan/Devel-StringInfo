@@ -1,16 +1,24 @@
 --- #YAML:1.0
-name:                Devel-StringInfo
-version:             0.02
-abstract:            ~
-license:             ~
-generated_by:        ExtUtils::MakeMaker version 6.32
-distribution_type:   module
-requires:     
-    Encode:                        0
-    Encode::Guess:                 0
-    Moose:                         0.20
-    Test::use::ok:                 0
-    Tie::IxHash:                   0
+name:               Devel-StringInfo
+version:            0.03
+abstract:           ~
+author:  []
+license:            unknown
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Encode:         0
+    Encode::Guess:  0
+    Moose:          0.20
+    Sub::Exporter:  0
+    Test::use::ok:  0
+    Tie::IxHash:    0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.48
 meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
-    version: 1.2
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
